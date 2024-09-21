@@ -179,7 +179,7 @@ There are lots of aliases and commands. Here are the most useful ones:
 | `cfg`        | `cd $HOME && git ...`                        | Run a `git` command on the Dotfiles                                  |
 | `cg`         | `cd <git root>`                              | Go to Git repository root                                            |
 | `com`        | `composer`                                   |                                                                      |
-| `cv`         | `cd vendor/alberon/`                         | You can also pass in a package name                                  |
+| `cv`         | `cd vendor/resconnx/`                        | You can also pass in a package name                                  |
 | `cw`         | `cd <web root>`                              | Go to web root                                                       |
 | `cwc`        | `cd wp-content/`                             | Go to WordPress content directory                                    |
 | `cwp`        | `cd wp-content/plugins/`                     | Go to WordPress plugins directory                                    |
