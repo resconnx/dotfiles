@@ -1,6 +1,6 @@
 # Dotfiles
 
-[These dotfiles](https://github.com/resconnx/dotfiles) are for use on shared or personal Alberon accounts.
+[These dotfiles](https://github.com/resconnx/dotfiles) are for use on shared or personal Research ConnectX accounts.
 
 You can also fork them to make your own copy, which you can customise to your liking ([see below](#how-to-fork-dotfiles)).
 
@@ -14,7 +14,7 @@ wget al0.uk/cfg # Or: wget alberon.uk/cfg
 . cfg
 ```
 
-If you are installing the main Alberon dotfiles (not a fork) on a personal account (not shared), set your name and email address:
+If you are installing the main ResConX dotfiles (not a fork) on a personal account (not shared), set your name and email address:
 
 ```bash
 setup-identity 'Your Name' 'yourname@researchconnectx.com'
@@ -157,7 +157,7 @@ When you log in, a maximum of once per day, dotfiles will automatically check fo
 
 To upgrade manually, run `cfg pull` (or, equivalently, `cd; git pull`).
 
-**Note:** If you have forked the repo, it won't check the `alberon` repo automatically - see above.
+**Note:** If you have forked the repo, it won't check the `ResConX` repo automatically - see above.
 
 ## Bash aliases and commands
 
@@ -376,11 +376,11 @@ You can also:
 This is only necessary if you want to customise your Dotfiles.
 
 - Fork the repo on GitHub
-- Install as normal (see above), OR (if you have already installed the Alberon Dotfiles), switch to your fork:
+- Install as normal (see above), OR (if you have already installed the ResConX Dotfiles), switch to your fork:
   ```bash
   git remote set-url origin https://github.com/YOURUSERNAME/dotfiles.git
   git remote set-url --push origin git@github.com:YOURUSERNAME/dotfiles.git
-  git remote add alberon https://github.com/alberon/dotfiles.git
+  git remote add ResConX https://github.com/resconnx/dotfiles.git
   git fetch
   ```
 - Set your name and email in `~/.gitconfig_personal`
@@ -395,7 +395,7 @@ To update your fork with the latest changes:
 
 ```bash
 cd
-g pl alberon master
+g pl resconnx main
 ```
 
 If there are any conficts, fix them, add the files (`g a <filename>`) and commit (`g ci`).
