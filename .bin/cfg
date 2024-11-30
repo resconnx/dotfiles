@@ -8,4 +8,3 @@ elif command -v lazygit &>/dev/null; then
 else
     command git status
 fi
-
