@@ -8,9 +8,8 @@ users:
     #ssh-authorized-keys:
     #  - '<add your key here (ssh-rsa ...)>'
     sudo:
-      - 'ALL=(ALL) NOPASSWD:ALL'
+      - "ALL=(ALL) NOPASSWD:ALL"
 
 runcmd:
-  - echo '[ ! -d .git ] && cd && wget https://alberon.uk/cfg && source cfg' >> /home/ubuntu/.bashrc
-
+  - echo '[ ! -d .git ] && cd && wget https://resconx.dev/cfg && source cfg' >> /home/ubuntu/.bashrc
 # vim:ts=2 sts=2 sw=2

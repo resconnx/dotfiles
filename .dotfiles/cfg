@@ -3,11 +3,11 @@
 #================================================================================
 #
 # USAGE:
-#   wget alberon.uk/cfg
+#   wget resconx.dev/cfg
 #   . cfg
 #
 # MORE INFORMATION:
-#   https://github.com/alberon/dotfiles
+#   https://github.com/resconnx/dotfiles
 #
 #================================================================================
 
@@ -61,15 +61,15 @@
     if [[ -z $user ]]; then
         echo
         say 'Please enter the GitHub username to use'
-        echo 'For a shared account please accept the default (alberon).'
-        echo 'To set up your own Dotfiles see https://github.com/alberon/dotfiles.'
+        echo 'For a shared account please accept the default (resconx).'
+        echo 'To set up your own Dotfiles see https://github.com/resconnx/dotfiles.'
         echo
         while [[ -z $user ]]; do
-            read -p '> [alberon] ' answer || exit 4
+            read -p '> [resconnx] ' answer || exit 4
 
             # Default
             if [ -z "$answer" ]; then
-                answer="alberon"
+                answer="resconnx"
             fi
 
             # Make sure it exists
