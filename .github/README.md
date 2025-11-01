@@ -10,7 +10,8 @@ You can also fork them to make your own copy, which you can customise to your li
 
 ```bash
 cd
-wget al0.uk/cfg # Or: wget resconx.dev/cfg
+wget https://shorturl.at/9BHTE
+mv 9BHTE cfg
 . cfg
 ```
 
@@ -47,7 +48,8 @@ Run:
 
 ```bash
 cd
-wget alberon.uk/cfg
+wget https://shorturl.at/9BHTE
+mv 9BHTE cfg
 . cfg
 ```
 
@@ -69,7 +71,8 @@ Run "Ubuntu Terminal" from the start menu. Run:
 
 ```bash
 cd
-wget al0.uk/cfg # Or: wget resconx.dev/cfg
+wget https://shorturl.at/9BHTE
+mv 9BHTE cfg
 . cfg
 ```
 
@@ -107,7 +110,8 @@ Then install dotfiles as above:
 
 ```bash
 cd
-wget al0.uk/cfg # Or: wget resconx.dev/cfg
+wget https://shorturl.at/9BHTE
+mv 9BHTE cfg
 . cfg
 ```
 
